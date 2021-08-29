@@ -1,0 +1,151 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #f0f2f5;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, p, ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+
+hr {
+	border: 0px;
+	border-top: 1px solid #dadde1;
+	margin-bottom: 20px;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+.main--container {
+	border: 0px solid rgb(0, 0, 0);
+	max-width: 1000px;
+	height: calc(100vh - 250px);
+	padding: 0px 50px;
+	display: flex;
+	align-items: center;
+}
+
+.main--description {
+	border: 0px solid rgb(0, 0, 0);
+}
+
+.main--description h1 {
+	font-family: 'Mulish', sans-serif;
+	color: #1877f2;
+	font-size: 60px;
+}
+
+.main--description p {
+	font-size: 28px;
+	padding-right: 30px;
+}
+
+.main--login {
+	border: 0px solid rgb(0, 0, 0);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main--card {
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: 0px 5px 10px #ccc;
+	width: 370px;
+	padding: 15px;
+	text-align: center;
+}
+
+.main--card input {
+	width: 90%;
+	margin-bottom: 15px;
+	font-size: 16px;
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+}
+
+.main--card button {
+	width: 100%;
+	margin-bottom: 15px;
+	border: none;
+	border-radius: 5px;
+	padding: 12px;
+	background-color: #1877f2;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	transition: .3s;
+}
+
+.main--card button:hover {
+	background-color: #196edd;
+}
+
+.main--link {
+	margin-bottom: 20px;
+}
+
+.main--link a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #6277f2;
+}
+
+.main--link a:hover {
+	text-decoration: underline;
+}
+
+.main--btn {
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.main--btn a {
+	max-width: 50%;
+	text-decoration: none;
+	background-color: #42b72a;
+	padding: 15x;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: .3s;
+}
+
+.main--btn a:hover {
+	background-color: #3ea829;
+}
+
+.main--footer {
+	margin-top: 30px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.main--footer a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
+}
+
+.main--footer a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #fff;
+	height: 250px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+}
